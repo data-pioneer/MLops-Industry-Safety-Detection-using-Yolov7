@@ -3,8 +3,13 @@
 ISD is an AI-powered computer vision system designed to monitor, track, and enforce workplace safety gear compliance. It utilizes real-time image analysis to identify five essential safety items: helmet, gloves, jacket, goggles, and footwear. ISD verifies if personnel are wearing these items before granting access to the work area. For implementation of Industry saftey Yolo7 model of computer vision is used, which has smaller size. 
 
 - Yolov7 Github repo link (https://github.com/WongKinYiu/yolov7)
-  
-# Benefits:
+
+# Flow Diaglram of MLops pipeline
+
+![MLops_ISD_Architexture_Flow_Diagram drawio](https://github.com/data-pioneer/MLops-Industry-Safety-Detection-using-Yolov7/assets/33811437/23cb87e0-2184-4a27-8189-13343207539b)
+
+
+# Benefits
 
 Enhances workplace safety by ensuring proper safety gear usage.
 Improves efficiency with real-time monitoring and automated access control.
