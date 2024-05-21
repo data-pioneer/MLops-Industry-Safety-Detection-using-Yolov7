@@ -11,8 +11,8 @@ ISD is an AI-powered computer vision system designed to monitor, track, and enfo
 
 # Benefits
 
-Enhances workplace safety by ensuring proper safety gear usage.
-Improves efficiency with real-time monitoring and automated access control.
+- Enhances workplace safety by ensuring proper safety gear usage.
+- Improves efficiency with real-time monitoring and automated access control.
 
 ## Workflows
 
