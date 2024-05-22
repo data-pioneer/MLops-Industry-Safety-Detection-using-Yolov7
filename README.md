@@ -6,7 +6,7 @@ ISD is an AI-powered computer vision system designed to monitor, track, and enfo
 
 # Flow Diaglram of MLops pipeline
 
-![MLops_ISD_Architexture_Flow_Diagram drawio](https://github.com/data-pioneer/MLops-Industry-Safety-Detection-using-Yolov7/assets/33811437/23cb87e0-2184-4a27-8189-13343207539b)
+![MLops_ISD_Architexture_Flow_Diagram](https://github.com/data-pioneer/MLops-Industry-Safety-Detection-using-Yolov7/assets/33811437/681cbdbb-8d95-4308-9b6b-3225c81c1488)
 
 # Project Structure Explaintation
 
