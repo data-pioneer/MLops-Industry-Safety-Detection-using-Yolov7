@@ -20,8 +20,11 @@ class S3Operation:
 
     
     def download_object(self,key, bucket_name, filename):
+        logging.info("bucket" + key + bucket_name)
         bucket = self.s3_resource.Bucket(bucket_name)
+        logging.info("bucket2" + key + bucket_name)
         bucket.download_file(Key = key, Filename = filename)
+        logging.info("bucket3" + key + bucket_name)
 
 
     @staticmethod

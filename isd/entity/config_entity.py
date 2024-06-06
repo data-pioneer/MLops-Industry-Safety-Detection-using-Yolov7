@@ -3,7 +3,8 @@ from dataclasses import dataclass
 from datetime import datetime
 from isd.constant.training_pipeline import *
 
-TIMESTAMP: str = datetime.now().strftime("%m_%d_%Y_%H_%M_%S")
+TIMESTAMP: str = "05_24_2024_23_10_11"
+#TIMESTAMP: str = datetime.now().strftime("%m_%d_%Y_%H_%M_%S")
 
 @dataclass
 class TrainingPipelineConfig:

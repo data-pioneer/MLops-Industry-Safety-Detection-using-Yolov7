@@ -1,6 +1,6 @@
 import os
 import sys
-from six.moves import urllib
+#from six.moves import urllib
 import zipfile
 from isd.logger import logging
 from isd.exception import isdException
@@ -47,11 +47,15 @@ class DataIngestion:
         """
         try:
             feature_store_path = self.data_ingestion_config.feature_store_file_path
-            os.system(f"unzip {zip_file_path} -d {feature_store_path}")
-            
+            #os.system(f"unzip {zip_file_path} -d {feature_store_path}") # todo Jas comment 
+
+            with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+               zip_ref.extractall(feature_store_path)
+            # logging.info(f" feature_store_path {feature_store_path}")
             return feature_store_path
 
         except Exception as e:
+            logging.info(f" Error generated")
             raise isdException(e, sys)
 
 
@@ -59,8 +63,13 @@ class DataIngestion:
     def initiate_data_ingestion(self)-> DataIngestionArtifact:
         logging.info("Entered initiate_data_ingestion method of Data_Ingestion class")
         try: 
-            zip_file_path = self.download_data()
+            zip_file_path = self.download_data()  
+            #zip_file_path = "artifacts\05_24_2024_23_10_11\data_ingestion\isd_data_mini.zip" # todo jas
             feature_store_path = self.extract_zip_file(zip_file_path)
+
+            
+            #feature_store_path = "artifacts\05_24_2024_23_10_11\data_ingestion\\feature_store" 
+            
 
             data_ingestion_artifact = DataIngestionArtifact(
                 data_zip_file_path = zip_file_path,
@@ -74,5 +83,6 @@ class DataIngestion:
 
 
         except Exception as e:
+            logging.info(f" Error generated 2")
             raise isdException(e, sys)
 
