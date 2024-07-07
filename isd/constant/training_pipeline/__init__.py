@@ -46,3 +46,4 @@ MODEL PUSHER related constant start with MODEL_PUSHER var name
 MODEL_BUCKET_NAME = "bhavleen-isd-data-24"
 S3_MODEL_NAME = "best.pt"
 
+S3_MODEL_NAME2 = "best.pt"
