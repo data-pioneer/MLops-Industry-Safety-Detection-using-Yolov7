@@ -148,3 +148,15 @@ python app.py
 
     AWS_ECR_LOGIN_URI = demo>>  443360382709.dkr.ecr.us-east-1.amazonaws.com
     ECR_REPOSITORY_NAME = yolov7repo
+
+# 8. Deployment Screens:
+
+![Screenshot 2024-07-08 221908](https://github.com/data-pioneer/MLops-Industry-Safety-Detection-using-Yolov7/assets/33811437/776f0f61-f488-4204-9d01-7543b231e948)
+
+![Screenshot 2024-07-08 215547](https://github.com/data-pioneer/MLops-Industry-Safety-Detection-using-Yolov7/assets/33811437/5b045d21-5a14-49c6-9c75-1113d6ca1dfc)
+
+![Screenshot 2024-07-08 215608](https://github.com/data-pioneer/MLops-Industry-Safety-Detection-using-Yolov7/assets/33811437/8fd80d68-3478-47d0-bbb0-e7fe1a6d56e5)
+
+
+
+
